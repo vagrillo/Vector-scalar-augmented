@@ -1,10 +1,6 @@
 # Vector-scalar-augmented
 # **Enhancing Image Embeddings with Scalar Metadata: A Multi-Dimensional Fusion Approach**
 
-**Authors**: [Your Name]  
-**Affiliation**: [Your Institution/Organization]  
-**Email**: [Your Email]  
-
 ## **Abstract**
 Modern image retrieval systems rely on deep learning embeddings to represent visual content in high-dimensional vector spaces. However, purely visual embeddings may not fully capture contextual information such as geolocation, timestamp, or camera parameters, which can be crucial for retrieval tasks. This paper proposes a novel method for augmenting visual embeddings (e.g., ViT-32 with 512 dimensions) with scalar metadata by transforming them into additional vector dimensions. Furthermore, we introduce a *dimension replication* technique to prioritize certain features during similarity search. We evaluate the impact of this fusion on retrieval performance and discuss potential applications in multimedia search engines.
 
